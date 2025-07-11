@@ -1,6 +1,10 @@
 /* CSS Variables for Theme Management */
 :root {
   /* Light theme colors */
+  --primary: #1976D2;
+  --secondary: #FFC107;
+  --accent: #D32F2F;
+
   --bg-primary: #ffffff;
   --bg-secondary: #f8f9fa;
   --text-primary: #282c34;
@@ -8,6 +12,13 @@
   --border-color: #e9ecef;
   --button-bg: #007bff;
   --button-text: #ffffff;
+
+  /* Tic Tac Toe custom */
+  --ttt-board-border: #e0e0e0;
+  --ttt-board-bg: #ffffff;
+  --ttt-cell-hover: #f4f6fa;
+  --ttt-status-bg: #f7fafc;
+  --ttt-ctrl-bg: #fafbff;
 }
 
 [data-theme="dark"] {
